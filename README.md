@@ -5,7 +5,7 @@
 ## Integrantes:
 
 * Díaz Hernandez Diego Fernando
-    - ![alt text](https://ibb.co/x7cTpSZ)
+    - ![alt text](https://i.ibb.co/HHM8WDZ/foto.jpg)
     - **Contacto:** diegofdiazh@javeriana.edu.co   
     - Ingeniero de sistemas con amplia experiencia en desarrollo de software, desarrollo en .net, .net core 3.1
     - **Rol:** Desarrollador

@@ -5,7 +5,13 @@
 ## Integrantes:
 
 * Díaz Hernandez Diego Fernando
-    - **Contacto:** diegofdiazh@javeriana.edu.co
+    - ![alt text](https://ibb.co/x7cTpSZ)
+    - **Contacto:** diegofdiazh@javeriana.edu.co   
+    - Ingeniero de sistemas con amplia experiencia en desarrollo de software, desarrollo en .net, .net core 3.1
+    - **Rol:** Desarrollador
+    - **Responsabilidades:**
+        - Desarrollar y entregar Software funcional que entregue valor de acuerdo a la necesidades del negocio.
+        - Garantizar la calidad de software, efectuando pruebas unitarias.
 * Herrera Salazar Julian Alberto
     - **Contacto:** jaherrera@javeriana.edu.co
 * Martinez Cobos Gilberto Andres

@@ -9,7 +9,7 @@
 * Herrera Salazar Julian Alberto
     - **Contacto:** jaherrera@javeriana.edu.co
 * Martinez Cobos Gilberto Andres
-    - ![alt text](https://drive.google.com/file/d/1GsbFTnZZx0UHgxLjT69dKdsG6ZDLIb1v/view?usp=sharing)
+    - ![alt text](https://avatars3.githubusercontent.com/u/57421413?s=400&u=d572ad55365f1f3df2472ad430e6cd3761675bca&v=4)
     - **Contacto:** martinez_ga@javeriana.edu.co
     - Ingeniero de sistemas con mas de 5 años de experiencia en desarrollo de software, certificado en JAVA [OCA -  OCA] y Scrum [Developer - Master].
     - **Rol:** Desarrollador

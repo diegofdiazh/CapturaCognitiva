@@ -24,5 +24,12 @@
         - Garantizar la calidad de software, efectuando pruebas unitarias.
 * Morales Perez Juan Camilo
     - **Contacto:** juanc-moralesp@javeriana.edu.co
+    - Ingeniero de sistemas con más de 5 años de experiencia con conocimiento en procesos de calidad de software y experiencia en pruebas de aplicaciones web.  Certificación Testing – ISTQB de la International software Testing.
+    - **Rol:** Analista QA
+    - **Responsabilidades:**
+        - Crear un plan de pruebas y testing
+        - Probar programas de automatización
+        - Mejorar estrategias de pruebas
+        - Asegurar que el software está listo para el público
 * Silva Pedraza German Augusto
     - **Contacto:** germansilva@javeriana.edu.co

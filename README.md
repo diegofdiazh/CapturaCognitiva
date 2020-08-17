@@ -16,7 +16,7 @@
     - ![alt text](https://avatars3.githubusercontent.com/u/69333141?s=400&u=dbb843219e06f0b31cabd0e794e80a630d4dbd21&v=4)
     - **Contacto:** jaherrera@javeriana.edu.co
     - Ingeniero de sistemas con más de 8 años de experiencia con conocimiento diseño de arquitectura de software, líder de proyectos.
-    - **Rol:** Desarrollador
+    - **Rol:** Arquitecto
     - **Responsabilidades:**
         - Diseño de la arquitectura de Software para las aplicaciones
         - Validar resultado de las pruebas de carga y métricas de desempeño del aplicativo

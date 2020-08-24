@@ -8,7 +8,7 @@
     - ![alt text](https://i.ibb.co/HHM8WDZ/foto.jpg)
     - **Contacto:** diegofdiazh@javeriana.edu.co   
     - Ingeniero de sistemas con amplia experiencia en desarrollo de software, desarrollo en .net, .net core 3.1
-    - **Rol:** Desarrollador
+    - **Rol:** Desarrollador Junior
     - **Responsabilidades:**
         - Desarrollar y entregar Software funcional que entregue valor de acuerdo a la necesidades del negocio.
         - Garantizar la calidad de software, efectuando pruebas unitarias.
@@ -25,7 +25,7 @@
     - ![alt text](https://avatars3.githubusercontent.com/u/57421413?s=400&u=d572ad55365f1f3df2472ad430e6cd3761675bca&v=4)
     - **Contacto:** martinez_ga@javeriana.edu.co
     - Ingeniero de sistemas con mas de 5 años de experiencia en desarrollo de software, certificado en JAVA [OCA -  OCA] y Scrum [Developer - Master].
-    - **Rol:** Desarrollador
+    - **Rol:** Desarrollador Senior
     - **Responsabilidades:**
         - Desarrollar y entregar Software funcional que entregue valor de acuerdo a la necesidades del negocio.
         - Garantizar la calidad de software, efectuando pruebas unitarias.

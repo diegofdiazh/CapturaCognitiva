@@ -1,26 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using CapturaCognitiva.Models;
+using Microsoft.AspNetCore.Identity;
+using CapturaCognitiva.Data;
 
 namespace CapturaCognitiva.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, SignInManager<ApplicationUser> signInManager)
         {
             _logger = logger;
+            _signInManager = signInManager;
         }
+
 
         public IActionResult Index()
         {
-            return View();
+            if (_signInManager.IsSignedIn(User))
+            {
+
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login", "Accounts");
+            }
+
         }
 
         public IActionResult Privacy()

@@ -20,9 +20,11 @@ namespace CapturaCognitiva.Data
     }
     public class ApplicationDbContext : IdentityDbContext
     {
+        public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
+
     }
 }

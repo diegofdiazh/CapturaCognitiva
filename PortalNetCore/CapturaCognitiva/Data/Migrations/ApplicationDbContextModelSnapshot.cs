@@ -232,6 +232,9 @@ namespace CapturaCognitiva.Data.Migrations
                     b.Property<int>("Attemps")
                         .HasColumnType("int");
 
+                    b.Property<long>("Cedula")
+                        .HasColumnType("bigint");
+
                     b.Property<DateTime?>("DateBlock")
                         .HasColumnType("datetime2");
 

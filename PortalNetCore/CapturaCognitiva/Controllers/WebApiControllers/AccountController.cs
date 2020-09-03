@@ -8,7 +8,6 @@ using CapturaCognitiva.Models.ViewModelsApi;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -34,7 +33,6 @@ namespace CapturaCognitiva.Controllers.WebApiControllers
             _signInManager = signInManager;
             _userManager = userManager;
         }
-
 
         /// <summary>
         /// 

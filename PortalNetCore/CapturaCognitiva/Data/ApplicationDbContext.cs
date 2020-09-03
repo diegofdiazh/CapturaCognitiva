@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using CapturaCognitiva.Models.AccountViewModels;
 
 namespace CapturaCognitiva.Data
 {
     public class ApplicationUser : IdentityUser
     {
+        public long Cedula { get; set; }
         public bool IsEnabled { get; set; }
         public bool IsRemoved { get; set; }
         public DateTime DateCreated { get; set; }
@@ -25,6 +27,7 @@ namespace CapturaCognitiva.Data
             : base(options)
         {
         }
+        public DbSet<CapturaCognitiva.Models.AccountViewModels.EditViewModels> EditViewModels { get; set; }
 
     }
 }

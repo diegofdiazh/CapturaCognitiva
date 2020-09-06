@@ -438,7 +438,6 @@ C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCogni
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
-C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\CapturaInstancia - Web Deploy\profile.arm.json
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\CapturaCognitiva.StaticWebAssets.xml
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\CapturaCognitiva.exe
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\CapturaCognitiva.deps.json
@@ -874,3 +873,6 @@ C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCogni
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Message.cshtml.g.cs
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\obj\Debug\netcoreapp3.1\Razor\Views\Accounts\Register.cshtml.g.cs
 C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\obj\Debug\netcoreapp3.1\Razor\Views\Accounts\Edit.cshtml.g.cs
+C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\CapturaInstancia - Web Deploy\profile.arm.json
+C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\obj\Debug\netcoreapp3.1\Razor\Views\Accounts\ForgotPassword.cshtml.g.cs
+C:\Users\Admin472\Desktop\IngSoftPro\CapturaCognitiva\PortalNetCore\CapturaCognitiva\obj\Debug\netcoreapp3.1\Razor\Views\Accounts\RecoveryPassword.cshtml.g.cs

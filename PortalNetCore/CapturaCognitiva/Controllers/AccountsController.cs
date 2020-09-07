@@ -95,7 +95,7 @@ namespace CapturaCognitiva.Controllers
             }
             return View();
         }
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador,OperadorDigitalizador")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

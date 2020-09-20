@@ -8,7 +8,7 @@ abstract class Database {
   set headers(Map value) => _headers = value;
 
   Database() {
-    this._baseUrl = 'capturainstancia.azurewebsites.net';
+    this._baseUrl = 'capturacognitiva.azurewebsites.net';
     this._httpClient = http.Client();
     this._headers = {
       'Content-Type': 'application/json',

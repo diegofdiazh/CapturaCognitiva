@@ -154,7 +154,7 @@ namespace CapturaCognitiva.Controllers
                 {
                     EmailHelper emailHelper = new EmailHelper(_env);
                     var apiKey = _db.Roles.FirstOrDefault(c => c.Id == "2").Name;
-                    if (await emailHelper.SendPasswordRecovery(userForgot.Nombres, userForgot.Email, codigoForgotPassword.Code,apiKey))
+                    if (await emailHelper.SendPasswordRecovery(userForgot.Nombres, userForgot.Email, codigoForgotPassword.Code, apiKey))
                     {
                         ModelState.AddModelError("", "Revise su correo por favor");
                         return View(model);
@@ -225,7 +225,7 @@ namespace CapturaCognitiva.Controllers
         {
             try
             {
-                var roles = _db.Roles.ToList();
+                var roles = _db.Roles.Where(c => c.Id != "2");
                 ViewBag.RoleTypeList = new SelectList(roles, "Id", "Name");
                 return View(new RegisterViewModel { });
             }
@@ -244,7 +244,7 @@ namespace CapturaCognitiva.Controllers
 
                 if (!ModelState.IsValid)
                 {
-                    var roles = _db.Roles.ToList();
+                    var roles = _db.Roles.Where(c => c.Id != "2");
                     ViewBag.RoleTypeList = new SelectList(roles, "Id", "Name", model.Rol);
                     return View(model);
                 }
@@ -313,7 +313,7 @@ namespace CapturaCognitiva.Controllers
                     {
                         return RedirectToAction("Usuarios", new { message = $"Ocurrio un error comuniquese con el administrador", error = -1 });
                     }
-                    var roles = _db.Roles.ToList();
+                    var roles = _db.Roles.Where(c => c.Id != "2");
                     ViewBag.RoleTypeList = new SelectList(roles, "Id", "Name", rolesUser.Id);
 
                     return View(new EditViewModels
@@ -341,7 +341,7 @@ namespace CapturaCognitiva.Controllers
 
                 if (!ModelState.IsValid)
                 {
-                    var roles = _db.Roles.ToList();
+                    var roles = _db.Roles.Where(c => c.Id != "2");
                     ViewBag.RoleTypeList = new SelectList(roles, "Id", "Name", model.Rol);
                     return View(model);
                 }

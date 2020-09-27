@@ -40,7 +40,7 @@ namespace CapturaCognitiva.Models.Response
                 string path = Path.Combine(_env.WebRootPath, "BodyEmails/BodyEmailRecuperacionContraseña.html");
                 ApiKey = apiKey;
                 var client = new SendGridClient(ApiKey);
-                var from = new EmailAddress("Die.goo@hotmail.es", "Notificaciones");
+                var from = new EmailAddress("diegofdiazh@javeriana.edu.co", "Notificaciones");
                 var subject = $"Señor : {nombres}";
                 var to = new EmailAddress(emailregister, nombres);
                 var plainTextContent = "Recuperar contraseña";
